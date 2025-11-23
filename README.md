@@ -12,7 +12,7 @@
    "useState", "check"
    "useEffect", "check"
    "useRef", "check"
-   "useContext",
+   "useContext", "check"
    "useReducer",
    "useMemo",
    "useCallback",
