@@ -10,7 +10,7 @@
 8. Raw code
 9. React hoocks [
    "useState", "check"
-   "useEffect",
+   "useEffect", "check"
    "useRef",
    "useContext",
    "useReducer",
