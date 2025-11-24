@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 import ShowCount from "./component/ShowCount";
 import CounterButton from "./component/CounterButton";
 import Tittle from "./component/Tittle";
+import BigData from "./component/BigData";
 
 
 // const App = () => {
@@ -48,21 +49,22 @@ const App = () => {
   }, [])
 
 
-  const bigCount = useMemo(() => {
-    let i = 0
-    while (i <= 10000000000) i = i += 1
-    console.log("EVEN", i)
-    return "EVEN"
-  }, [])
+  // const bigCount = useMemo(() => {
+  //   let i = 0
+  //   while (i <= 10000000000) i = i += 1
+  //   console.log("EVEN", i)
+  //   return "EVEN"
+  // }, [])
 
   return (
     <div>
       <Tittle />
-      <h1>{bigCount}</h1>
+      <h1>{"bigCount"}</h1>
       <ShowCount count={count1} tittle="Counter One" />
       <CounterButton children="Increment count1" fn={increment1} />
       <ShowCount count={count2} tittle="Counter Two" />
       <CounterButton children="Increment count2" fn={increment2} />
+      <BigData />
     </div>
   );
 };
