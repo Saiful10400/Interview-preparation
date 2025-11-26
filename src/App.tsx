@@ -5,6 +5,8 @@ import ShowCount from "./component/ShowCount";
 import CounterButton from "./component/CounterButton";
 import Tittle from "./component/Tittle";
 import BigData from "./component/BigData";
+import HoverEffectCalender from "./component/HoverEffectCalender";
+import ImageCardSlider from "./component/ImageCardSlider";
 
 
 // const App = () => {
@@ -58,13 +60,15 @@ const App = () => {
 
   return (
     <div>
-      <Tittle />
+      {/* <Tittle />
       <h1>{"bigCount"}</h1>
       <ShowCount count={count1} tittle="Counter One" />
       <CounterButton children="Increment count1" fn={increment1} />
       <ShowCount count={count2} tittle="Counter Two" />
       <CounterButton children="Increment count2" fn={increment2} />
-      <BigData />
+      <BigData /> */}
+      {/* <HoverEffectCalender /> */}
+      <ImageCardSlider/>
     </div>
   );
 };
