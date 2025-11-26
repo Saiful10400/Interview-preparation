@@ -9,10 +9,10 @@
 7. Promise
 8. Raw code
 9. React hoocks [
-   "useState",
-   "useEffect",
-   "useRef",
-   "useContext",
+   "useState", "check"
+   "useEffect", "check"
+   "useRef", "check"
+   "useContext", "check"
    "useReducer",
    "useMemo",
    "useCallback",
@@ -22,3 +22,7 @@
    "useSearchParams",
    "usePathname"
    ]
+ 
+ 
+ 
+ 
